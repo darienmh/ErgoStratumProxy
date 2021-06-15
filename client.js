@@ -1,4 +1,4 @@
-const client = require('stratum-client');
+const client = require('@samyca/stratum-client');
 const http = require('http');
 const BigInt = require("big-integer");
 const chalk = require('chalk');
