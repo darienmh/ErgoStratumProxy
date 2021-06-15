@@ -14,7 +14,7 @@ parser.add_argument('-s', '--server', {help: 'server ip address', required: true
 parser.add_argument('-p', '--port', {help: 'server listening port', required: true});
 parser.add_argument('-u', '--worker', {help: 'worker name', required: true});
 parser.add_argument('-w', '--password', {help: 'worker password', default: 'x'});
-parser.add_argument('-l', '--listen', {help: 'listening port', default: 3000});
+parser.add_argument('-l', '--listen', {help: 'listening port', default: 11111});
 parser.add_argument('-t', '--timeout', {help: 'connection timeout', default: 300});
 
 args = parser.parse_args();
